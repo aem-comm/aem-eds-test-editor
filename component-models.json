@@ -19,16 +19,21 @@
     "id": "tabs",
     "fields": [
       {
-        "component": "reference",
-        "name": "tabsRef",
-        "label": "Tabs Reference",
-        "multi": false
-      },
-      {
-        "component": "text",
-        "name": "tabsAlt",
-        "label": "Alt Text",
-        "valueType": "string"
+        "component": "group",
+        "label": "Tabs",
+        "fields": [
+          {
+            "component": "reference",
+            "name": "tabs",
+            "label": "Tabs Reference",
+            "multi": false
+          },
+          {
+            "component": "text",
+            "name": "tabsAlt",
+            "label": "Alt Text"
+          }
+        ]
       }
     ]
   },
@@ -36,16 +41,21 @@
     "id": "video",
     "fields": [
       {
-        "component": "reference",
-        "name": "video",
+        "component": "group",
         "label": "Video",
-        "multi": false
-      },
-      {
-        "component": "text",
-        "name": "videoAlt",
-        "label": "Alt Text",
-        "valueType": "string"
+        "fields": [
+          {
+            "component": "reference",
+            "name": "video",
+            "label": "Video Reference",
+            "multi": false
+          },
+          {
+            "component": "text",
+            "name": "videoAlt",
+            "label": "Alt Text"
+          }
+        ]
       }
     ]
   },
