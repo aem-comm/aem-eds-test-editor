@@ -20,6 +20,7 @@
     "fields": [
       {
         "component": "group",
+        "name": "tab-group",
         "label": "Tabs",
         "fields": [
           {
@@ -42,6 +43,7 @@
     "fields": [
       {
         "component": "group",
+        "name": "video-group",
         "label": "Video",
         "fields": [
           {
