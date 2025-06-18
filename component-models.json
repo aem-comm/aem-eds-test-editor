@@ -16,6 +16,67 @@
     ]
   },
   {
+    "id": "tabs",
+    "fields": [
+      {
+        "component": "reference",
+        "name": "tabs",
+        "label": "tabs",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "name": "imageAlt",
+        "label": "Alt Text"
+      }
+    ]
+  },
+  {
+    "id": "video",
+    "fields": [
+      {
+        "component": "reference",
+        "name": "video",
+        "label": "video",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "name": "videoAlt",
+        "label": "Alt Text"
+      }
+    ]
+  },
+   {
+    "id": "product-info",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "firstname",
+        "label": "First Name"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "lastname",
+        "label": "Last Name"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "email",
+        "label": "Email Address"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "password",
+        "label": "Password"
+      }
+    ]
+  },
+  {
     "id": "title",
     "fields": [
       {
