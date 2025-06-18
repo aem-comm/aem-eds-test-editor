@@ -19,21 +19,16 @@
     "id": "tabs",
     "fields": [
       {
-        "component": "collapsible",
-        "label": "Tabs Block",
-        "fields": [
-          {
-            "component": "reference",
-            "name": "tabs",
-            "label": "Tabs",
-            "multi": false
-          },
-          {
-            "component": "text",
-            "name": "imageAlt",
-            "label": "Alt Text"
-          }
-        ]
+        "component": "reference",
+        "name": "tabsRef",
+        "label": "Tabs Reference",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "name": "tabsAlt",
+        "label": "Alt Text",
+        "valueType": "string"
       }
     ]
   },
@@ -43,13 +38,14 @@
       {
         "component": "reference",
         "name": "video",
-        "label": "video",
+        "label": "Video",
         "multi": false
       },
       {
         "component": "text",
         "name": "videoAlt",
-        "label": "Alt Text"
+        "label": "Alt Text",
+        "valueType": "string"
       }
     ]
   },
