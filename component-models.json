@@ -19,15 +19,21 @@
     "id": "tabs",
     "fields": [
       {
-        "component": "reference",
-        "name": "tabsReference",
-        "label": "Tabs",
-        "multi": false
-      },
-      {
-        "component": "text",
-        "name": "imageAlt",
-        "label": "Alt Text"
+        "component": "collapsible",
+        "label": "Tabs Block",
+        "fields": [
+          {
+            "component": "reference",
+            "name": "tabs",
+            "label": "Tabs",
+            "multi": false
+          },
+          {
+            "component": "text",
+            "name": "imageAlt",
+            "label": "Alt Text"
+          }
+        ]
       }
     ]
   },
