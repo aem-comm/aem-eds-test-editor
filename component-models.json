@@ -20,8 +20,8 @@
     "fields": [
       {
         "component": "reference",
-        "name": "tabs",
-        "label": "tabs",
+        "name": "tabsReference",
+        "label": "Tabs",
         "multi": false
       },
       {
