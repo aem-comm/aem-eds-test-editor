@@ -89,8 +89,7 @@ const loadVideoEmbed = (block, link, autoplay, background) => {
 };
 
 export default async function decorate(block) {
-  const videoUrl = block.dataset['videoGroupVideo'];
-  const videoAlt = block.dataset['videoGroupVideoAlt'] || 'Video';
+  const videoUrl = block.dataset.videoGroupVideo;
   block.textContent = '';
   block.dataset.embedLoaded = false;
 
@@ -106,6 +105,6 @@ export default async function decorate(block) {
     });
     observer.observe(block);
   } else {
-    block.innerHTML = `<p>No video configured</p>`;
+    block.innerHTML = '<p>No video configured</p>';
   }
 }
